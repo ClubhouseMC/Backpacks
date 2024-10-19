@@ -1,4 +1,4 @@
-name: PlayerVaults
+name: Backpacks
 authors: [drtshock, kashike, mbaxter]
 website: ${project.url}
 
@@ -8,25 +8,25 @@ softdepend: [Vault, Multiverse-Inventories, PlaceholderAPI]
 api-version: 1.21
 
 commands:
-  pv:
+  bp:
     description: Open a vault.
-    aliases: [vault, chest, playervaults, vc]
-  pvdel:
+    aliases: [vault, chest, playervaults, vc, backpack]
+  bpdel:
     description: Delete a vault.
     aliases: [vaultdel]
-  pvsign:
+  bpsign:
     description: Manage vault signs.
     aliases: [vaultsign]
-  pvconvert:
+  bpconvert:
     description: Convert other plugins to PlayerVaultsX.
     aliases: [vaultconvert]
-  pvreload:
+  bpreload:
     description: Reload the configuration and language files.
     permission: playervaults.admin
-  pvhelpme:
+  bphelpme:
     description: Pastes debug info to get better assistance.
     permission: playervaults.admin
-  pvconsole:
+  bpconsole:
     description: Console-only commands
     permission: playervaults.console
 
