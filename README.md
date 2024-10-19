@@ -1,6 +1,3 @@
-PlayerVaults
+Backpacks
 ============
-
-Resource page: https://www.spigotmc.org/resources/playervaultsx.51204/
-
-[![Discord](https://imgur.com/MFRRBn4.png)](https://discord.gg/JZcWDEt)
+A, basic, rename of PlayerVaultsX (https://github.com/KittehDev/PlayerVaultsX)
